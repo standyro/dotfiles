@@ -1,0 +1,7 @@
+*
+!.gitignore
+!.bash_profile
+!.vim*
+!.tmux*
+.DS_Store
+.CFUserTextEncoding

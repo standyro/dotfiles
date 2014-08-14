@@ -1,5 +1,5 @@
 alias weechat="weechat-curses"
-alias sourcetree='open -a SourceTree'
+alias st='open -a SourceTree'
 
 export "PATH=$PATH:/usr/bin"
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/Cellar/ruby/1.9.3-p327/bin:$PATH"

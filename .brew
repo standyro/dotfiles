@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+
+brew update
+
+brew install coreutils --default-names
+brew install mysql
+brew install postgresql
+brew install redis
+brew install docker
+brew install git
+brew install git-extras
+brew install python
+brew install gnupg
+brew install source-highlight
+brew install tmux
+brew install wget
+
+brew install git-flow
+brew install node
+brew install ruby-install
+brew install chruby
+
+brew install caskroom/cask/brew-cask
+brew tap caskroom/versions
+
+brew cask install dropbox
+brew cask install xquartz
+brew cask install caffeine
+brew cask install google-chrome
+brew cask install google-chrome-canary
+brew cask install firefox
+brew cask install firefoxdeveloperedition
+brew cask install iterm2
+brew cask install sequel-pro
+brew cask install adium
+brew cask install hipchat
+brew cask install evernote
+brew cask install google-drive
+brew cask install dropbox
+brew cask install sublime-text3
+brew cask install vlc
+brew cask install google-chrome
+brew cask install google-hangouts
+brew cask install skype
+brew cask install the-unarchiver
+brew cask install cyberduck
+brew cask install transmission
+brew cask install bartender
+brew cask install spotify
+brew cask install skitch
+brew cask install little-snitch
+brew cask install mou
+brew cask install source-tree
+brew cask install pc-keyboard-hack
+brew cask install keynote
+brew cask install adobe-creative-cloud
+brew cask install switchresx
+brew cask install dockx
+brew cleanup

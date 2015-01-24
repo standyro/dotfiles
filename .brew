@@ -56,4 +56,6 @@ brew cask install keynote
 brew cask install adobe-creative-cloud
 brew cask install switchresx
 brew cask install dockx
+brew cask install atom
+
 brew cleanup

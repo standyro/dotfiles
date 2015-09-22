@@ -52,12 +52,14 @@ brew cask install spotify
 brew cask install skitch
 brew cask install little-snitch
 brew cask install mou
-brew cask install source-tree
 brew cask install pc-keyboard-hack
 brew cask install keynote
 brew cask install adobe-creative-cloud
 brew cask install switchresx
 brew cask install dockx
 brew cask install atom
+brew cask install divvy
+brew cask install sourcetree
+brew cask install pgadmin3
 
 brew cleanup

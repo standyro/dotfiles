@@ -61,5 +61,4 @@ brew cask install atom
 brew cask install divvy
 brew cask install sourcetree
 brew cask install pgadmin3
-
-brew cleanup
+brew cask install dockertoolbox

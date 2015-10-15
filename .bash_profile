@@ -11,9 +11,7 @@ export EDITOR='subl -w'
 CLASSPATH="$HOME/Sources/videoamp/scala/atomic-scala-examples-master/AtomicScala/examples:${CLASSPATH}"
 export CLASSPATH
 
-export DOCKER_HOST=tcp://192.168.59.103:2376
-export DOCKER_CERT_PATH=/Users/standyro/.boot2docker/certs/boot2docker-vm
-export DOCKER_TLS_VERIFY=1
+eval "$(docker-machine env default)"
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 

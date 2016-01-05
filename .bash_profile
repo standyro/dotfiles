@@ -11,7 +11,7 @@ export EDITOR='subl -w'
 CLASSPATH="$HOME/Sources/videoamp/scala/atomic-scala-examples-master/AtomicScala/examples:${CLASSPATH}"
 export CLASSPATH
 
-eval "$(docker-machine env default)"
+eval "$(docker-machine env osxdock)"
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 

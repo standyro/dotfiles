@@ -8,10 +8,17 @@ export PATH="$HOME/Scala/bin/:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bi
 NODE_PATH=/usr/local/lib/node_modules:/usr/local/lib/node
 export EDITOR='subl -w'
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
+
 CLASSPATH="$HOME/Sources/videoamp/scala/atomic-scala-examples-master/AtomicScala/examples:${CLASSPATH}"
 export CLASSPATH
 
-eval "$(docker-machine env osxdock)"
+source ~/.bin/tmuxinator.bash
+
+eval "$(docker-machine env default)"
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
